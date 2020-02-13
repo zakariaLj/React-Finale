@@ -1,0 +1,7 @@
+.navi{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    list-style: none;
+    text-decoration: none;
+}

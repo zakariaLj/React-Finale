@@ -34,3 +34,35 @@
     transform: rotate(360deg);
   }
 }
+
+.Fond{
+  
+  width: 50%;
+  height: 50%;
+  background-color: darkgreen;
+}
+
+.Carree1{
+  width: 200px;
+  height: 200px;
+  background-color: darkmagenta;
+}
+.CarreParent{
+  display: flex;
+  justify-content: space-around;
+ 
+}
+.Carre2{
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  margin: 50px;
+  display: none;
+}
+.Carre1{
+  width: 100px;
+  height: 100px;
+  background-color: darkred;
+  margin: 50px;
+  display: block;
+}

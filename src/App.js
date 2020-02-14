@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import Home from './Home.jsx';
+//import Home from './Home.jsx';
 import Exo1 from './Exo1.jsx';
 import Exo2 from './Exo2.jsx';
 import Exo3 from './Exo3.jsx';
@@ -53,7 +53,7 @@ export default function App() {
           </Route> */}
           <Route path="/Exo1">
             <Exo1 />
-          </Route>
+          </Route>  
           <Route path="/Exo2">
             <Exo2 />
           </Route>

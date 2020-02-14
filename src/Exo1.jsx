@@ -1,17 +1,18 @@
 import React from 'react';
-import style from 'react-bootstrap'
-
+//import style from 'react-bootstrap'
+  
 export default function Exo1() {
     
         let changeTitel= ()=>{
             let newTitel = document.getElementById('Titre')
-            newTitel.classList.add('bg-danger')
+            newTitel.classList.add('bg-danger');
             newTitel.innerText = ' Titre modifié';
     
     
         }
     return (
         <div className="container">
+            <h1>Exo 1</h1>
             <h2 id="Titre" onMouseMove ={ changeTitel}> Mon titre  </h2>
             <p>Liste des propriété et méthodes a retrouver dans la documentation:</p>
             <ul>

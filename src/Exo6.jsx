@@ -143,7 +143,7 @@ export default function Exo6() {
     <div className='container'>
         <h3> Niveau 2</h3>
       <div className="calc-app">
-        <input type="text" value={result} ref={inputRef} />
+        <input id='inputCalc' type="text" value={result} ref={inputRef} />
 
         <div className="keypad container">
           <button id="clear" onClick={clear}>

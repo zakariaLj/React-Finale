@@ -1,7 +1,7 @@
 import React from "react";
 
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-//import Home from './Home.jsx';
+import Home from './Home.jsx';
 import Exo1 from './Exo1.jsx';
 import Exo2 from './Exo2.jsx';
 import Exo3 from './Exo3.jsx';
@@ -18,7 +18,7 @@ export default function App() {
         <nav >
           <ul className="navi" >
             <li className="App-link">
-              <Link to="/">Home</Link>
+              <Link to="/Home">Home</Link>
             </li>
             <li>
               <Link to="/Exo1">Exo 1</Link>
@@ -45,12 +45,14 @@ export default function App() {
           </ul>
         </nav>
 
+
+         
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          {/* <Route path="/">
+          <Route path="/Home">
             <Home />
-          </Route> */}
+          </Route>
           <Route path="/Exo1">
             <Exo1 />
           </Route>  

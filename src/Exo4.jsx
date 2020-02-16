@@ -2,7 +2,7 @@ import React,{useState} from 'react';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 export default function Exo4() {
-    const [Carre, setCarre] = useState(0);
+    const [Carre, setCarre] = useState(1);
     const [Compt, setCompt] = useState(0);
 
     let gotoChange = ()=>{
@@ -33,7 +33,7 @@ export default function Exo4() {
         CarreRemove2.classList = ('Carre1 d-none');
         
         setCompt(0)
-        setCarre(0)
+        setCarre(1)
     }
     return (
         <div className="container bg-dark">
@@ -55,8 +55,8 @@ export default function Exo4() {
 
             </div>
             <div className="d-flex justify-content-center align-items-center">
-            <button onClick={() => gotoChange()} > Press</button>
-            <button onClick ={()=> removeCompteur()}> compteur </button>
+            <button onClick={() => gotoChange()} > Start</button>
+            <button onClick ={()=> removeCompteur()}> Reset</button>
             
             
             </div>

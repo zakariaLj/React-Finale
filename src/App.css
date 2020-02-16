@@ -112,7 +112,7 @@
   grid-auto-rows: minmax(60px, auto);
 }
 
-input[type="text"] {
+#inputCalc {
   height: 60px;
   width: 225px;
 }
@@ -131,4 +131,8 @@ input[type="text"] {
 
 #backspace {
   color: orangered;
+}
+.home{
+  display: flex;
+  justify-content: space-around;
 }

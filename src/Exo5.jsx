@@ -4,7 +4,7 @@ import './App.css';
 
 export default function Exo5() {
     const [Compteur, setCompteur] = useState(0)
-    const [Reset, setReset] = useState('')
+    // const [Reset, setReset] = useState('')
     let NewDiv = document.getElementById('ImageChildDiv');
 let GoAdd = () => {
     NewDiv = document.getElementById('ImageChildDiv');
@@ -19,7 +19,7 @@ let GoSupp = () => {
         NewDiv.lastChild.remove(Image)
         setCompteur(Compteur-1)
     }else{
-        setReset(0)
+        setCompteur(0)
     }
 
 
@@ -35,7 +35,7 @@ let GoSuppTout = () => {
     return (
         <>
         <div className='container'>
-            <h2> Exo 4</h2>
+            <h2> Exo 5</h2>
             <button onClick={()=>GoAdd()}>Ajouter </button>
             <button onClick={()=>GoSupp()}>Supprimer</button>
             <button onClick={()=>GoSuppTout()}>Supprimer tout</button> <h2>{Compteur} </h2> <h3 id="stop"></h3>
